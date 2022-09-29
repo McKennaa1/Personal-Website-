@@ -15,19 +15,35 @@ function Home() {
           <p className="border-solid border-2 p-1 m-2 rounded">EMAIL ME</p>
         </div>
       </div>
-      
-      <div className="bg-[#ebe3dd]">
-        <h1 className="text-2xl md:text-3xl lg:text-3xl">LINKS</h1>
-        <p className="text-xl md:text-2xl lg:text-2xl">FOLLOW ME</p>
-        <p className="text-xl md:text-2xl lg:text-2xl">COMMISSION ME</p>
-      </div>
 
-       <div className="p-2 sm:visible md:hidden lg:hidden">
-          <h1 className="text-xl md:text-2xl lg:text-              2xl">CONTACT</h1>
-          <p className="border-solid border-2 p-1 m-2 rounded">DM ME ON INSTAGRAM</p>
-          <p className="border-solid border-2 p-1 m-2 rounded">EMAIL ME</p>
+
+      
+      <div className="bg-[#ebe3dd] flex flex-col text-center">
+        <h1 className="text-2xl md:text-3xl lg:text-3xl">LINKS</h1>
+        
+        <p className="text-xl md:text-2xl lg:text-2xl">FOLLOW ME</p>
+        <div className="flex flex-row">
+          <img src="Links/Instagram.png" className="w-20 h-20 md:w-32 md:h-32"/>
+          <img src="Links/YouTube.png"className="w-20 h-20 md:w-32 md:h-32"/>
+          <img src="Links/Linktree.png" className="w-20 h-20 md:w-32 md:h-32"/>
+        </div>
+        <p className="text-xl md:text-2xl lg:text-2xl">COMMISSION ME</p>
+        <div className="flex flex-row">
+          <img src="Links/Fiverr.png" className="w-20 h-20 md:w-32 md:h-32"/>
+          <img src="Links/Redbubble.png" className="w-20 h-20 md:w-32 md:h-32"/>
         </div>
     
+      
+  
+        <div className="bg-[#fff8f3] p-2 sm:visible md:hidden lg:hidden">
+          <h1 className="text-xl md:text-2xl lg:text-              2xl">CONTACT</h1>
+          <div className="flex flex-col">
+            <p className="border-solid border-2 p-1 m-2 rounded">DM ME ON INSTAGRAM</p>
+            <p className="border-solid border-2 p-1 m-2 rounded">EMAIL ME</p>
+          </div>
+          </div>
+      </div>
+      
     </div>
   )
 }
